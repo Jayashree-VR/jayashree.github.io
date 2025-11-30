@@ -1,4 +1,4 @@
-# 👋 [Jayashree VR] | [ENgineer]
+# 👋 [Jayashree VR] | [Engineer]
 
 ## 🌟 Welcome!
 This is the repository for my personal portfolio website.
