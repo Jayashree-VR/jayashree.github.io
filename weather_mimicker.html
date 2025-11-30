@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Weather Mimicker System | Jayashree VR</title>
+  <meta name="description" content="An embedded system that simulates real-world weather patterns using sensors and an LED display.">
+  <meta name="keywords" content="Weather Simulation, Embedded Systems, Sensors, Arduino, DHT22, BMP280, LM393, LED Matrix">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Poppins:wght@300;400;500;600;700&family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+</head>
+
+<body class="portfolio-details-page">
+
+  <!-- Header -->
+  <header id="header" class="header d-flex align-items-center light-background sticky-top">
+    <div class="container-fluid d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+        <h1 class="sitename">Jayashree VR</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <div class="header-social-links">
+        <a href="https://www.linkedin.com/in/jayashree-vr-a0b5b02a2" class="linkedin"><i class="bi bi-linkedin"></i></a>
+        <a href="https://www.quora.com/profile/Jsr-77" target="_blank"><i class="fab fa-quora"></i></a>
+      </div>
+
+    </div>
+  </header>
+  <!-- End Header -->
+
+  <main class="main">
+
+    <!-- Portfolio Details Section -->
+    <section id="portfolio-details" class="portfolio-details section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Weather Mimicker System</h2>
+        <p>
+          A compact embedded system that simulates real-time weather conditions using sensors. Temperature, humidity, light, and pressure are measured and visualized dynamically on an 8x16 LED matrix, providing an interactive demonstration of environmental changes.
+        </p>
+      </div>
+      <!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row gy-4">
+
+          <!-- Image Slider -->
+          <div class="col-lg-8">
+            <div class="portfolio-details-slider swiper init-swiper">
+
+              <script type="application/json" class="swiper-config">
+                {
+                  "loop": true,
+                  "speed": 600,
+                  "autoplay": { "delay": 5000 },
+                  "slidesPerView": "auto",
+                  "pagination": { "el": ".swiper-pagination", "type": "bullets", "clickable": true }
+                }
+              </script>
+
+              <div class="swiper-wrapper align-items-center">
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/indoor2.jpg" alt="Weather Mimicker Display">
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/indoor3.jpg" alt="Sensor Setup">
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/indoor4.jpg" alt="LED Matrix Output">
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/indoor5.jpg" alt="Project Prototype">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/indoor6.jpg" alt="Project Prototype">
+                </div>
+
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+
+          <!-- Project Info and Key Deliverables -->
+          <div class="col-lg-4">
+
+            <div class="portfolio-info p-4 rounded shadow-sm" data-aos="fade-up" data-aos-delay="200">
+              <h3 class="fw-bold">Project Information</h3>
+              <ul>
+                <li><strong>Category:</strong> Embedded Systems + Sensors</li>
+                <li><strong>Tools/Components:</strong> Arduino, DHT22, LM393, BMP280, LED Matrix</li>
+                <li><strong>Project Date:</strong> Jan 2024</li>
+                <li><strong>Status:</strong> Completed</li>
+              </ul>
+            </div>
+
+            <div class="portfolio-description mt-4 p-4 rounded shadow-sm" data-aos="fade-up" data-aos-delay="300">
+              <h3 class="fw-bold">Key Deliverables</h3>
+              <ul>
+                <li>Developed a real-time weather simulation system that reads environmental parameters using sensors.</li>
+                <li>Visualized the collected data dynamically on an 8x16 LED matrix display.</li>
+              </ul>
+            </div>
+
+
+          </div>
+
+        </div>
+
+        <!-- Detailed Description Section -->
+        <div class="row mt-4">
+          <div class="col-12">
+            <div class="about-system-box p-4 rounded shadow-sm" data-aos="fade-up" data-aos-delay="200">
+              <h2 class="fw-bold">Detailed Description</h2>
+              <p style="text-align: justify;">
+                The Weather Mimicker System is an educational embedded project that combines multiple sensors to read temperature, humidity, light intensity, and atmospheric pressure. The Arduino microcontroller processes this data in real time and maps it to different weather scenarios displayed on an 8x16 LED matrix. The system visually communicates changes in weather conditions such as sunny, cloudy, or rainy patterns dynamically.
+              </p>
+              <p style="text-align: justify;">
+                The project demonstrates practical skills in hardware interfacing, sensor calibration, real-time data processing, and visualization techniques. It is a compact and cost-effective solution suitable for classrooms, workshops, and personal learning, providing hands-on experience in embedded systems design and environmental monitoring.
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+    <!-- End Portfolio Details Section -->
+
+  </main>
+
+  <!-- Footer -->
+  <footer id="footer" class="footer light-background py-4">
+    <div class="container text-center">
+      <p>© <strong class="sitename">Jayashree</strong> — All Rights Reserved</p>
+      <div class="social-links d-flex justify-content-center">
+        <a href="https://www.linkedin.com/in/jayashree-vr-a0b5b02a2" target="_blank"><i class="bi bi-linkedin"></i></a>
+        <a href="https://www.quora.com/profile/Jsr-77" target="_blank"><i class="fab fa-quora"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Clap-Controlled Car | Jayashree VR</title>
+
+  <!-- Meta Description & Keywords -->
+  <meta name="description" content="A sound-responsive robotic car controlled by clap inputs using the LM393 sound sensor and an embedded microcontroller.">
+  <meta name="keywords" content="Clap-Controlled Car, Embedded Systems, LM393, Sound Sensor, Robotics, Microcontroller">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- Main CSS -->
+  <link href="assets/css/main.css" rel="stylesheet">
+</head>
+
+<body class="portfolio-details-page">
+
+  <!-- Header -->
+  <header id="header" class="header d-flex align-items-center light-background sticky-top shadow-sm">
+    <div class="container-fluid d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+        <h1 class="sitename fw-bold">Jayashree VR</h1>
+      </a>
+
+      <!-- Navbar -->
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <!-- Header Social Links -->
+      <div class="header-social-links">
+        <a href="https://www.linkedin.com/in/jayashree-vr-a0b5b02a2" class="linkedin" target="_blank">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="https://www.quora.com/profile/Jsr-77" target="_blank">
+          <i class="fab fa-quora"></i>
+        </a>
+      </div>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Portfolio Section -->
+    <section id="portfolio-details" class="portfolio-details section">
+
+      <!-- Section Title -->
+      <div class="container section-title text-center" data-aos="fade-up">
+        <h2 class="fw-bold">Clap-Controlled Car</h2>
+        <p class="text-muted">
+          A sound-responsive robotic car demonstrating audio-based command execution in embedded systems.
+        </p>
+      </div>
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row gy-4">
+
+          <!-- Slider Column -->
+          <div class="col-lg-8">
+            <div class="portfolio-details-slider swiper init-swiper rounded shadow-sm">
+
+              <!-- Slider Configuration -->
+              <script type="application/json" class="swiper-config">
+                {
+                  "loop": true,
+                  "speed": 600,
+                  "autoplay": { "delay": 5000 },
+                  "slidesPerView": "auto",
+                  "pagination": {
+                    "el": ".swiper-pagination",
+                    "type": "bullets",
+                    "clickable": true
+                  }
+                }
+              </script>
+
+              <!-- Slider Images -->
+              <div class="swiper-wrapper align-items-center">
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/car2.png" alt="Clap Car Image 1">
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/car3.png" alt="Clap Car Image 2">
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/car4.png" alt="Clap Car Image 2">
+                </div>
+              </div>
+
+              <!-- Pagination Bullets -->
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+
+          <!-- Right Column (Project Info + Description) -->
+          <div class="col-lg-4">
+
+            <!-- Project Information -->
+            <div class="portfolio-info p-4 rounded shadow-sm" data-aos="fade-up" data-aos-delay="200">
+              <h3 class="fw-bold">Project Information</h3>
+              <ul>
+                <li><strong>Category:</strong> Embedded Systems / Robotics</li>
+                <li><strong>Tools:</strong> LM393 Sound Sensor, Microcontroller (Arduino), L298N Motor Driver</li>
+                <li><strong>Project Date:</strong> November 2024</li>
+                <li><strong>Status:</strong> Completed</li>
+              </ul>
+            </div>
+
+            <!-- Description Box -->
+            <div class="portfolio-description mt-4 p-4 rounded shadow-sm" data-aos="fade-up" data-aos-delay="300">
+              <h3 class="fw-bold">Key Deliverables</h3>
+              <ul>
+                <li>Built a <strong>hands-free robotic car</strong> controlled entirely by audio input.</li>
+                <li>Implemented <strong>signal processing logic</strong> to differentiate between single and multiple claps.</li>
+                <li>Integrated <strong>LM393 sound sensor</strong> for reliable environmental input detection.</li>
+                <li>Programmed microcontroller for <strong>directional movement</strong> based on clap sequence.</li>
+              </ul>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Detailed Description Section -->
+      <div class="container">
+        <div class="row mt-4">
+          <div class="col-12">
+            <div class="about-system-box p-4 rounded shadow-sm" data-aos="fade-up" data-aos-delay="200">
+              <h2 class="fw-bold">Detailed Description</h2>
+
+              <p style="text-align: justify;">
+                The Clap-Controlled Car project is an introduction to
+                <strong>embedded systems and robotics</strong>, utilizing sound detection as a command input.
+                The LM393 sound sensor converts claps into usable digital signals for the microcontroller.
+              </p>
+
+              <p style="text-align: justify;">
+                The microcontroller interprets these signals using
+                <strong>time-based logic</strong> to differentiate between 1-clap, 2-clap, and multi-clap commands.
+                These commands control an L298N motor driver to navigate the robotic car.
+              </p>
+
+              <p style="text-align: justify;">
+                This project demonstrates practical skills in
+                sensor interfacing, signal processing, and motor control — core areas in embedded electronics.
+              </p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer id="footer" class="footer light-background py-4">
+    <div class="container text-center">
+      <p>© <strong class="sitename">Jayashree</strong> — All Rights Reserved</p>
+      <div class="social-links d-flex justify-content-center">
+        <a href="https://www.linkedin.com/in/jayashree-vr-a0b5b02a2" target="_blank"><i class="bi bi-linkedin"></i></a>
+        <a href="https://www.quora.com/profile/Jsr-77" target="_blank"><i class="fab fa-quora"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center">
+    <i class="bi bi-arrow-up-short"></i>
+  </a>
+
+  <div id="preloader"></div>
+
+  <!-- Vendor JS -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <!-- Main JS -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+</html>
