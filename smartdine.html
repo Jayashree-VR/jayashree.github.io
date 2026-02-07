@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Project Profile - SmartDine AI</title>
+  <meta name="description" content="AI-powered dining recommendation engine using Spring Boot and natural language processing.">
+  <meta name="keywords" content="SmartDine, AI, Spring Boot, Machine Learning, Sentiment Analysis, Recommendation Engine">
+
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <link href="assets/css/main.css" rel="stylesheet">
+</head>
+
+<body class="portfolio-details-page">
+
+  <header id="header" class="header d-flex align-items-center light-background sticky-top">
+    <div class="container-fluid position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+        <h1 class="sitename">Portfolio</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="projects.html" class="active">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <div class="header-social-links">
+        <a href="https://www.linkedin.com/in/jayashree-vr-a0b5b02a2" class="linkedin"><i class="bi bi-linkedin"></i></a>
+        <a href="https://www.quora.com/profile/Jsr-77" target="_blank"><i class="fab fa-quora"></i></a>
+      </div>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <section id="portfolio-details" class="portfolio-details section">
+
+      <div class="container section-title text-center" data-aos="fade-up">
+        <h2 class="fw-bold">SmartDine AI</h2>
+        <p>A sophisticated AI recommendation engine that translates subjective cravings into personalized culinary suggestions using Natural Language Processing.</p>
+      </div>
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row gy-4">
+
+          <div class="col-lg-8">
+            <div class="portfolio-details-slider swiper init-swiper rounded shadow-sm">
+              
+              <script type="application/json" class="swiper-config">
+                {
+                  "loop": true,
+                  "speed": 600,
+                  "autoplay": { "delay": 5000 },
+                  "slidesPerView": "auto",
+                  "pagination": {
+                    "el": ".swiper-pagination",
+                    "type": "bullets",
+                    "clickable": true
+                  }
+                }
+              </script>
+
+              <div class="swiper-wrapper align-items-center">
+                <div class="swiper-slide"><img src="assets/img/portfolio/SmartDine2.jpeg" alt="SmartDine Dashboard"></div>
+                <div class="swiper-slide"><img src="assets/img/portfolio/SmartDine3.jpeg" alt="AI Chatbot Interface"></div>
+                <div class="swiper-slide"><img src="assets/img/portfolio/SmartDine4.jpeg" alt="AI Chatbot Interface"></div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+
+            <div class="portfolio-info p-4 rounded shadow-sm" data-aos="fade-up" data-aos-delay="200">
+              <h3 class="fw-bold">Project Information</h3>
+              <ul>
+                <li><strong>Category:</strong> Artificial Intelligence / Web Dev</li>
+                <li><strong>Tech Stack:</strong> HTML, CSS, Javascript, Spring Boot, MySQL</li>
+                <li><strong>Project Date:</strong> January 2026</li>
+                <li><strong>Status:</strong> Completed</li>
+              </ul>
+            </div>
+
+            <div class="portfolio-description mt-4 p-4 rounded shadow-sm" data-aos="fade-up" data-aos-delay="300">
+              <h3 class="fw-bold">Key Deliverables</h3>
+              <ul>
+                <li>Engineered a high-performance recommendation engine using Spring Boot.</li>
+                <li>Developed a Natural Language Processing (NLP) module to handle complex user prompts.</li>
+                <li>Integrated Sentiment Analysis to refine dish suggestions based on user mood and cravings.</li>
+                <li>Designed a dual-pane dashboard featuring a live menu and an AI chatbot interface.</li>
+                <li>Implemented an intelligent mapping system to connect keyword patterns to menu item metadata.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row mt-4">
+          <div class="col-12">
+            <div class="about-system-box p-4 rounded shadow-sm" data-aos="fade-up" data-aos-delay="200">
+              <h2 class="fw-bold">Detailed Description</h2>
+              <p style="text-align: justify;">
+                SmartDine redefines the digital menu experience by moving beyond static filters. At its core, the project utilizes a <strong>Spring Boot</strong> backend to power a sophisticated AI recommendation engine. Unlike traditional systems that rely on simple categories, SmartDine analyzes complex user descriptions—such as "something spicy and comforting for a rainy day"—and translates these subjective inputs into specific, data-driven menu recommendations.
+              </p>
+              <p style="text-align: justify;">
+                The system features an <strong>intelligent mapping architecture</strong> that performs keyword extraction and sentiment analysis in real-time. This allows the application to understand the nuance behind "cravings," matching the user's emotional and physical preferences with the flavor profiles of the available dishes. The frontend provides a seamless split-screen dashboard where users can interact with an AI chatbot on one side and see their personalized menu update dynamically on the other.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="footer" class="footer light-background py-4">
+    <div class="container text-center">
+      <p>© <strong class="sitename">Jayashree</strong> — All Rights Reserved</p>
+      <div class="social-links d-flex justify-content-center">
+        <a href="https://www.linkedin.com/in/jayashree-vr-a0b5b02a2" target="_blank"><i class="bi bi-linkedin"></i></a>
+        <a href="https://www.quora.com/profile/Jsr-77" target="_blank"><i class="fab fa-quora"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+
+  <script src="assets/js/main.js"></script>
+
+</body>
+</html>
